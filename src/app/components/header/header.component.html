@@ -1,0 +1,51 @@
+<nav class="hidden md:flex fixed right-6 top-1/2 -translate-y-1/2 z-50 flex-col gap-6">
+    
+    <a
+        href="#sobre"
+        class="w-3 h-3 rounded-full border border-border hover:bg-primary hover:scale-150 transition-all duration-300 group relative cursor-pointer shadow-lg"
+        [class.bg-primary]="activeSection === 'sobre'"
+        [class.scale-150]="activeSection === 'sobre'"
+        [class.bg-muted]="activeSection !== 'sobre'"
+    >
+        <span class="absolute right-6 top-1/2 -translate-y-1/2 opacity-0 group-hover:opacity-100 transition-all duration-300 text-primary font-mono text-xs whitespace-nowrap bg-surface px-3 py-1.5 rounded-md border border-border shadow-xl">
+            sobre
+        </span>
+    </a>
+
+    <a
+        href="#experiencia"
+        class="w-3 h-3 rounded-full border border-border hover:bg-primary hover:scale-150 transition-all duration-300 group relative cursor-pointer shadow-lg"
+        [class.bg-primary]="activeSection === 'experiencia'"
+        [class.scale-150]="activeSection === 'experiencia'"
+        [class.bg-muted]="activeSection !== 'experiencia'"
+    >
+        <span class="absolute right-6 top-1/2 -translate-y-1/2 opacity-0 group-hover:opacity-100 transition-all duration-300 text-primary font-mono text-xs whitespace-nowrap bg-surface px-3 py-1.5 rounded-md border border-border shadow-xl">
+            experiência
+        </span>
+    </a>
+
+    <a
+        href="#projetos"
+        class="w-3 h-3 rounded-full border border-border hover:bg-primary hover:scale-150 transition-all duration-300 group relative cursor-pointer shadow-lg"
+        [class.bg-primary]="activeSection === 'projetos'"
+        [class.scale-150]="activeSection === 'projetos'"
+        [class.bg-muted]="activeSection !== 'projetos'"
+    >
+        <span class="absolute right-6 top-1/2 -translate-y-1/2 opacity-0 group-hover:opacity-100 transition-all duration-300 text-primary font-mono text-xs whitespace-nowrap bg-surface px-3 py-1.5 rounded-md border border-border shadow-xl">
+            projetos
+        </span>
+    </a>
+
+    <a
+        href="#formacao"
+        class="w-3 h-3 rounded-full border border-border hover:bg-primary hover:scale-150 transition-all duration-300 group relative cursor-pointer shadow-lg"
+        [class.bg-primary]="activeSection === 'formacao'"
+        [class.scale-150]="activeSection === 'formacao'"
+        [class.bg-muted]="activeSection !== 'formacao'"
+    >
+        <span class="absolute right-6 top-1/2 -translate-y-1/2 opacity-0 group-hover:opacity-100 transition-all duration-300 text-primary font-mono text-xs whitespace-nowrap bg-surface px-3 py-1.5 rounded-md border border-border shadow-xl">
+            formação
+        </span>
+    </a>
+    
+</nav>
