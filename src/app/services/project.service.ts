@@ -26,6 +26,14 @@ export class ProjectService {
             tags: ['Angular', 'NestJS', 'GraphQL', 'MySQL', 'Docker']
         },
         {
+            title: 'Projeto CheckEvent',
+            category: 'Full Stack',
+            description: 'Aplicação de um sistema de gerenciamento e confirmação de presença (RSVP) em eventos',
+            image: 'projetos/CheckEvent.png',
+            link: 'https://github.com/eduardofranco572/CheckEvent',
+            tags: ['Angular', 'Laravel', 'GraphQL', 'RabbitMQ', 'Docker']
+        },
+        {
             title: 'Social Network',
             category: 'Full Stack',
             description: 'Rede social em tempo real com persistência poliglota (MySQL, MongoDB, Neo4j) e RabbitMQ.',
